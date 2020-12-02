@@ -8,7 +8,7 @@ int main()
     s1.print();
     s2.print();
 
-    String::swap(move(s1), move(s2));
+    String::swap(s1, s2);
     cout << "s1" << endl;
     s1.print();
     cout << "s2" << endl;

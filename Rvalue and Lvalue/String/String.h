@@ -10,7 +10,7 @@ public:
 	String(String&& other);//MOVE CTOR
 	void setLine(char* line);
 	void print();
-	static void swap(String&&one, String&& two);
+	static void swap(String&one, String& two);
 
 	String(const char* str);
 	~String();

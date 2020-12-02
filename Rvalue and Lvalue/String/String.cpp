@@ -32,7 +32,7 @@ void String::print()
 	cout << "Size: " << size << endl;
 }
 
-void String::swap(String&& one, String&& two)
+void String::swap(String& one, String& two)
 {
 	String temp(move(one));
 	one = move(two);
